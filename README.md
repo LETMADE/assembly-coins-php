@@ -1,4 +1,4 @@
-# assembly-coins-api-php
+# assembly-coins-php
 
 AssemblyCoins API library client for PHP
 
