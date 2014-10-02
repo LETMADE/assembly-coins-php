@@ -1,0 +1,27 @@
+{
+	"name": "assembly-coins-api/assembly-coins-api",
+	"version": "0.1.0",
+	"description": "AssemblyCoins API library client for PHP",
+	"homepage": "https://coins.assembly.com",
+	"authors": [
+		{
+			"name": "James Peerless",
+			"email": "jamespeerless@gmail.com",
+			"homepage": "http://github.com/jamespeerless"
+		}
+	],
+	"keywords": ["assembly coins", "coins", "assembly", "bitcoin", "assets", "colored coins"],
+	"autoload": {
+		"psr-0": {
+			"AssemblyCoins\\": "lib/"
+		}
+	},
+	"require": {
+		"ext-json": "*",
+		"guzzle/guzzle": "3.7.*"
+	},
+	"support": {
+		"issues": "https://github.com/jamespeerless/assembly-coins-api-php/issues"
+	},
+	"license": "MIT"
+}
